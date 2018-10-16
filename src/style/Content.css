@@ -1,0 +1,77 @@
+.parbase-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.subtext {
+    max-width: 70%;
+    font-size: 1.5vw;
+    margin-bottom: 80px;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.video {
+    height: 40vw;
+    width: 100%;
+}
+
+.back {
+    width: 50px;
+    top: 270px;
+    right: 0px;
+    position: fixed;
+    background: red;
+}
+
+ul {
+    margin: auto;
+}
+
+.submenu li {
+    display: none;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    padding: 1vw;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+
+.share a {
+    font-size: 2vw;
+}
+
+.share {
+    background: transparent;
+    width: 4vw;
+    background: #d9252b;
+    z-index: 1000;
+}
+
+.active+.submenu>li {
+    display: block;
+    background: #1f1f1f;
+    width: 100%;
+
+}
+
+.active>a {
+    color: #d9252b;
+
+    border-bottom: 1px solid silver
+}
+
+.click {
+    width: 100%;
+    padding: 1vw;
+}

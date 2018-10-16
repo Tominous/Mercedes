@@ -1,0 +1,28 @@
+@font-face {
+    font-family: DaimlerCAC-Regular;
+    src: url(https://assets.oneweb.mercedes-benz.com/global/1.14.0/fonts/EOT/DaimlerCAC-Regular.eot);
+    src: url(https://assets.oneweb.mercedes-benz.com/global/1.14.0/fonts/EOT/DaimlerCAC-Regular.eot#iefix) format("embedded-opentype"), url(https://assets.oneweb.mercedes-benz.com/global/1.14.0/fonts/WOFF2/DaimlerCAC-Regular.woff2) format("woff2"), url(https://assets.oneweb.mercedes-benz.com/global/1.14.0/fonts/WOFF/DaimlerCAC-Regular.woff) format("woff"), url(https://assets.oneweb.mercedes-benz.com/global/1.14.0/fonts/TTF/DaimlerCAC-Regular.ttf) format("truetype"), url(https://assets.oneweb.mercedes-benz.com/global/1.14.0/fonts/SVG/DaimlerCAC-Regular.svg#DaimlerCAC-Regular) format("svg");
+}
+
+.under-line {
+    background: #d9252b;
+    border: none;
+    display: inline-block;
+    height: 1px;
+    margin: 0.5vw 0;
+    width: 40px
+}
+
+h4 {
+    font-size: 1.5vw;
+}
+
+.black {
+    color: black;
+}
+
+.black-fone {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    padding: 0.5vw;
+}

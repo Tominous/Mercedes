@@ -1,0 +1,167 @@
+.clock-slider {
+    margin-bottom: 50px;
+    overflow: visible;
+}
+
+.more {
+    margin-top: 1vw;
+    padding: 0.8vw;
+    background: #d9252b;
+    display: inline-block;
+}
+
+.slider {
+    display: flex;
+    position: relative;
+    height: 50vw;
+}
+
+.active {
+    background: #1f1f1f;
+}
+
+.hr-text>h3 {
+    font-size: 2vw;
+}
+
+.black h3 {
+    color: black;
+}
+
+.right-relat {
+    position: absolute;
+    right: 20px;
+    padding: 0.5vw;
+}
+
+.relat {
+    position: absolute;
+    left: 20px;
+    padding: 1vw;
+    top: 2vw;
+}
+
+.slide {
+    position: absolute;
+    max-width: 1440px;
+}
+
+.slide::before {
+    background: linear-gradient(#000, transparent 150px, transparent calc(100% - 150px), #000);
+    content: '';
+    height: 2vw;
+    position: absolute;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.showing {
+    z-index: 2;
+    display: block;
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: url("http://dancort.es/assets/img/css-carousel/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
+}
+
+.arrow-prev {
+    left: 0;
+}
+
+.arrow-next {
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.slider-text {
+    top: 45vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .slider-text {
+        top: 45vw;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .slider-text {
+        top: 40vw;
+    }
+
+    .slider {
+        height: 45vw;
+    }
+
+    .slide .hr-text>h4 {
+        font-size: 1vw
+    }
+
+    .slide .hr-text>h3 {
+        font-size: 1vw
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    .slider-text {
+        top: 35vw;
+    }
+
+    .slider {
+        height: 42vw;
+    }
+}
+
+@media screen and (min-width: 1850px) {
+    .slider-text {
+        top: 30vw;
+    }
+
+    .slider {
+        height: 38vw;
+    }
+}
+
+@media screen and (min-width: 2050px) {
+    .slider-text {
+        top: 25vw;
+    }
+
+    .slider {
+        height: 32vw;
+    }
+
+    .slide .hr-text>h4 {
+        font-size: 0.5vw
+    }
+
+    .slide .hr-text>h3 {
+        font-size: 0.5vw
+    }
+
+    body {
+        font-size: 0.5vw;
+    }
+}
+
+@media screen and (min-width: 2350px) {
+    .slider-text {
+        top: 22vw;
+    }
+
+    .slider {
+        height: 26vw;
+    }
+}

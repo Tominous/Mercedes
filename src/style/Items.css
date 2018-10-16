@@ -1,0 +1,107 @@
+.items {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.items-item {
+    width: 47%;
+    margin: 1vw;
+    font-size: 1vw;
+    top: 0;
+}
+
+.items-item h3 {
+    font-size: 1.7vw
+}
+
+.items-item p {
+    font-size: 1.3vw
+}
+
+img {
+    max-width: 100%;
+}
+
+.item {
+    font-size: 2vw;
+    margin-bottom: 80px;
+}
+
+.arrow1 {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .items-item h3 {
+        font-size: 2vw
+    }
+
+    .items-item p {
+        font-size: 1.5vw
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .items-item {
+
+        width: 100%;
+    }
+
+    .item {
+        margin-bottom: 120px;
+    }
+
+    .items-no-wrap {
+        flex-wrap: wrap;
+    }
+
+    .slide4,
+    .slide1,
+    .slide2,
+    .slide3,
+    .slide0 {
+        display: none;
+        position: absolute;
+        max-width: 1440px;
+    }
+
+    .slider4,
+    .slider3,
+    .slider2,
+    .slider1,
+    .slider0 {
+        height: 60vw;
+        display: flex;
+        position: relative;
+    }
+
+    .slide0:not(.showing) {
+        display: none;
+    }
+
+    .first {
+        display: block
+    }
+
+    .arrow1 {
+        position: absolute;
+        top: 0;
+        display: block;
+        width: 50px;
+        height: 85%;
+        border: none;
+        outline: none;
+        background: url("http://dancort.es/assets/img/css-carousel/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .items-item h3 {
+        font-size: 4vw
+    }
+
+    .items-item p {
+        font-size: 3vw
+    }
+}

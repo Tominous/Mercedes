@@ -1,0 +1,120 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-size: 1vw;
+    -webkit-font-smoothing: antialiased;
+}
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:not(.nonhover):hover {
+    color: #d9252b;
+}
+
+.nonhover {
+    color: white
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-left: 0px;
+}
+
+li {
+    font-size: 1vw;
+}
+
+h3 {
+    color: white
+}
+
+.color-grey {
+    color: #a8a8a8;
+}
+
+.rights {
+    max-width: 90%;
+    font-size: 1vw;
+    margin: 60px 2vw;
+}
+
+.margin {
+    margin: 0 5vw;
+    max-width: 1440px;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer {
+        margin: 0 2vw;
+    }
+
+    .main-content {
+        margin: 0 2vw
+    }
+
+    .parbase-text .subtext {
+        max-width: 100%;
+        font-size: 2vw;
+    }
+
+    .rights {
+        font-size: 2vw;
+    }
+
+    .hr-text>h4 {
+        font-size: 3vw
+    }
+
+    .hr-text>h3 {
+        font-size: 3vw
+    }
+
+    .slide .hr-text>h4 {
+        font-size: 1.5vw
+    }
+
+    .slide .hr-text>h3 {
+        font-size: 1.5vw
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .rights {
+        font-size: 2.7vw;
+    }
+
+    h3 {
+        font-size: 4vw
+    }
+
+    .hr-text>h3 {
+        font-size: 4vw;
+    }
+
+    .parbase-text .subtext {
+        font-size: 3.5vw;
+    }
+
+    .arrow,
+    .arrow1 {
+        background: url("http://dancort.es/assets/img/css-carousel/carousel-arrow-dark.png") 50% 50% / 10px no-repeat;
+    }
+}
